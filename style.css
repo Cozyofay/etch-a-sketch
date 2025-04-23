@@ -16,3 +16,14 @@
 .box:hover{
     background-color: rgba(0, 0, 255, 0.5);
 }
+
+.btn{
+    background-color: rgb(0, 153, 255);
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.btn:active{
+    transform: scale(0.95);
+    background-color: rgb(0, 15, 253);
+}
