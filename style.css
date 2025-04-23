@@ -8,10 +8,11 @@
 }
 
 .box{
-    display: flex;
     width: calc(100%/16);
     height: calc(100vh/16);
-    
+    transition: background-color 0.3s ease;
+}
 
-
+.box:hover{
+    background-color: rgba(0, 0, 255, 0.5);
 }
