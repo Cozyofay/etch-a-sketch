@@ -1,3 +1,4 @@
+//creating dom elements and appending
 const container = document.createElement("div")
 const button = document.createElement("button")
 container.appendChild(button)
